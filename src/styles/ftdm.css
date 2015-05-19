@@ -1,0 +1,53 @@
+/*
+.ftdm-header {
+    background-color: #337AB7;
+}
+*/
+.ftdm-header .open > a {
+    color: #337AB7 !important;
+    background-color: gold;
+}
+.ftdm-navbar-brand {
+    color: #337AB7;
+}
+.ftdm-dropup, .ftdm-dropdown {
+  position: relative;
+}
+
+.ftdm-dropdown-toggle {
+   color: gold !important;
+}
+
+.ftdm-dropdown-toggle:focus, 
+.ftdm-dropdown-toggle:active, 
+.ftdm-dropdown-toggle:hover {
+   background-color: gold !important;
+   color:#337AB7  !important;
+}
+
+.navbar,
+.navbar-toggle, 
+.navbar-toggle:focus, 
+.navbar-toggle:active 
+{
+   background-color:#337AB7 !important;
+}
+
+.navbar-toggle {
+   border-color:#337AB7 !important;
+}
+.navbar-toggle:hover {
+   border-color:gold !important;
+}
+
+.navbar-brand {
+   color:gold !important;
+}
+a {
+   color:#337AB7 !important;
+}
+/*
+body {
+   background-color:#337AB7;
+}
+*/
