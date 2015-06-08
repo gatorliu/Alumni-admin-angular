@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>ngTable</title>
+</head>
+<body ng-app="myTable">
+
+<div class="span8" ng-controller="table1Ctrl">
+<h3>js更新</h3>
+<table ng-table class="table">
+<tr ng-repeat="user in users">
+<td title="Name">{{user.name}}</td>
+<td title="Value">{{user.age}}</td>
+</tr>
+</table>
+</div>
+
+<script src="../src/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../src/bower_components/angular/angular.min.js"></script>
+    <script src="../src/bower_components/ng-table/dist/ng-table.min.js"></script>
+<script src="ng-table.js"></script>
+</body>
+</html>
